@@ -7,6 +7,7 @@
 <body>
 
 <h2>Job Application</h2>
+<h3>Position: Lucinda's Assistant</h3>
 
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
@@ -108,55 +109,28 @@
 	</fieldset>
 
 	<fieldset>
-		<legend>Availability</legend>
+		<legend>Compatability</legend>
 		<div class="field">
-			<label>Are you legally able to be employed in this country?</label> 
+			<label>Do you want to be Lucinda's assistant?</label> 
 			<input type="radio" name="legal" value="yes">Yes
 			<input type="radio" name="legal" value="no">No
 		</div>
 		<div class="field">
-			<label>What type of position are you seeking? (check all that apply)</label>
+			<label>What type of music do you like? (check all that apply)</label>
 			<ul>
-				<li><input type="checkbox" name="position_pt" value="parttime">Part time</li>
-				<li><input type="checkbox" name="position_ft" value="fulltime">Full time</li>
-				<li><input type="checkbox" name="position_sl" value="seasonal">Seasonal</li>
-				<li><input type="checkbox" name="position_tp" value="temporary">Temporary</li>
+				<li><input type="checkbox" name="position_pt" value="country">Country</li>
+				<li><input type="checkbox" name="position_ft" value="rap/r&b">Rap/R&B</li>
+				<li><input type="checkbox" name="position_sl" value="pop">Pop</li>
+				<li><input type="checkbox" name="position_tp" value="electronic">Electronic</li>
 			</ul>
 		</div>
 		<div class="field">
-			<label>Hours available</label>
-			<table>
-				<tr>
-					<td></td>
-					<th>Sun</th>
-					<th>Mon</th>
-					<th>Tue</th>
-					<th>Wed</th>
-					<th>Thu</th>
-					<th>Fri</th>
-					<th>Sat</th>
-				</tr>
-				<tr>
-					<th>From</th>
-					<td><input type="time" size="5" name="su_from"></td>
-					<td><input type="time" size="5" name="mo_from"></td>
-					<td><input type="time" size="5" name="tu_from"></td>
-					<td><input type="time" size="5" name="we_from"></td>
-					<td><input type="time" size="5" name="th_from"></td>
-					<td><input type="time" size="5" name="fr_from"></td>
-					<td><input type="time" size="5" name="sa_from"></td>
-				</tr>
-				<tr>
-					<th>Until</th>
-					<td><input type="time" size="5" name="su_until"></td>
-					<td><input type="time" size="5" name="mo_until"></td>
-					<td><input type="time" size="5" name="tu_until"></td>
-					<td><input type="time" size="5" name="we_until"></td>
-					<td><input type="time" size="5" name="th_until"></td>
-					<td><input type="time" size="5" name="fr_until"></td>
-					<td><input type="time" size="5" name="sa_until"></td>
-				</tr>
-			</table>
+			<label>What is your favorite food? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="first" value="Noodles">Noodles</li>
+				<li><input type="checkbox" name="second" value="Burgers">Burgers</li>
+				<li><input type="checkbox" name="third" value="Salad">Burgers</li>
+			</ul>
 		</div>
 	</fieldset>
 
@@ -170,13 +144,6 @@
 			<label>What skills or assets will you bring?</label><br>
 			<textarea name="project" rows="6" cols="60"></textarea>
 		</div>
-	</fieldset>
-
-	<fieldset>
-		<legend>Logistic Details</legend>
-		<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
-		<input type="checkbox" name="vehicle" value="Car">I have a car<br>
-		<input type="checkbox" name="vehicle" value="Walk">I have public transportation
 	</fieldset>
 
 	<input type="submit" value="Submit form">
